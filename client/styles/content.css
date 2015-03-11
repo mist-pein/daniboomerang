@@ -18,37 +18,62 @@
 /* PARALLAX */
 /************/
 
-.parallax-image-section{ height:100%;}
-
-/* BOOKSHELL PARALLAX BACKGROUND */
-.bookshell-parallax-background {
-	background: url(/images/testLightCover.svg) ; 
-	background-repeat: no-repeat;
-	 -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
- }   
-
-/* DESK PARALLAX BACKGROUND */
-.desk-parallax-background {
-	background: url(/images/testLightCover.svg); 
-	background-repeat: no-repeat;
-	-webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
+.parallax-image-section{
+	height: 100%;
 }
 
-/* FLAT PARALLAX BACKGROUND */
-.floor-parallax-background {
-	background: url(/images/deskCut.svg); 
-	background-repeat: no-repeat;
-	-webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
-}    
+/* BOOKSHELL PARALLAX BACKGROUND */
+.bookshell-parallax-image {
+	background: url(/images/secondRowOfBooks.svg);	
+	background-repeat: no-repeat;	
+	background-size: 100%;	
+ }
+.bookshell-parallax-gradient {
+	height:100%;
+	background: -webkit-linear-gradient(0deg, #3D7EAA 10%, #FFE47A 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(0deg, #3D7EAA 10%, #FFE47A 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(0deg, #3D7EAA 10%, #FFE47A 90%); /* IE10 */
+	background:      -o-linear-gradient(0deg, #3D7EAA 10%, #FFE47A 90%); /* Opera 11.10+ */
+	background:         linear-gradient(0deg, #3D7EAA 10%, #FFE47A 90%); /* W3C */
+        
+}   
+/*********************************/
+
+/* DESK PARALLAX BACKGROUND */
+.desk-parallax-image {
+	background-image: url(/images/desk.svg); 
+	background-repeat: no-repeat;	
+	background-size: 100%;	
+}
+.desk-parallax-gradient {
+	height:150%;
+	background: -webkit-linear-gradient(0deg, #283048 10%, #859398 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(0deg, #283048 10%, #859398 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(0deg, #283048 10%, #859398 90%); /* IE10 */
+	background:      -o-linear-gradient(0deg, #283048 10%, #859398 90%); /* Opera 11.10+ */
+	background:         linear-gradient(0deg, #283048 10%, #859398 90%); /* W3C */
+        
+}
+/*********************************/
+
+
+/* GARAGE PARALLAX BACKGROUND */
+.garage-parallax-image {
+	background: url(/images/garage.svg);
+	background-repeat: no-repeat;	
+	background-size: 100%;
+}
+.garage-parallax-gradient {
+	height:200%;
+	background: -webkit-linear-gradient(0deg, #134E5E 10%, #71B280 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(0deg, #134E5E 10%, #71B280 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(0deg, #134E5E 10%, #71B280 90%); /* IE10 */
+	background:      -o-linear-gradient(0deg, #134E5E 10%, #71B280 90%); /* Opera 11.10+ */
+	background:         linear-gradient(0deg, #134E5E 10%, #71B280 90%); /* W3C */
+	    	
+}
+/*********************************/
+
 
 
 /*==========  RESPONSIVENESS  ==========*/
@@ -65,16 +90,17 @@
 /*////////////////////////////////////*/
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {.dboom-section{ padding-top:20%; }
+@media (min-width: 768px) {.dboom-section{ padding-top:5%;
+padding-bottom:5%; }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {.dboom-section{ padding-top:15%; }
+@media (min-width: 992px) {.dboom-section{  }
 
 /* Large devices (large desktops, 1280px and up) */
-@media (min-width: 1280px) {.dboom-section{ padding-top:13%; }
+@media (min-width: 1280px) {.dboom-section{  }
 
 /* Large devices (large desktops, 1400px and up) */
-@media (min-width: 1400px) {.dboom-section{ padding-top:13%; }
+@media (min-width: 1400px) {.dboom-section{  }
 
 /*////////////////////////////////////*/
 
